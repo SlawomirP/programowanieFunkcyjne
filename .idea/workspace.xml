@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f380d48-6306-4a0c-86c9-34674f4fb5cf" name="Changes" comment="---">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cwiczeniaReferencje/MainForTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cwiczeniaReferencje/MetodaStatyczna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cwiczeniaReferencje/Moja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cwiczeniaReferencje/ZwracanieZwiekszonegoTextu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streamy/Wprowadzenie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streamy/Wprowadzenie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streamy/Wprowadzenie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660407695072</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="---">
+      <created>1660412957017</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660412957017</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

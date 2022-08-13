@@ -14,7 +14,7 @@ public class Wprowadzenie {
         List <String> newNames = names.stream()
                 //filtrujemy tylko imiona zakonczone na a
                 .filter(name -> name.endsWith("a"))
-                //stream jest zapisywany w newNames
+                //stream jest zapisywany w newNames, metoda konczaca
                 .collect(Collectors.toList());
         System.out.println(newNames);
 
