@@ -1,4 +1,6 @@
 package wyrazeniaLambda;
 
-public class Operacje {
+public interface Operacje {
+
+    int dodaj(int a, int b);
 }
