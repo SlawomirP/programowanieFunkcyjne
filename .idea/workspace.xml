@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f380d48-6306-4a0c-86c9-34674f4fb5cf" name="Changes" comment="---">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cwiczeniaReferencje/MainForTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cwiczeniaReferencje/MetodaStatyczna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cwiczeniaReferencje/Moja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cwiczeniaReferencje/ZwracanieZwiekszonegoTextu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streamy/Wprowadzenie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +48,7 @@
       <recent name="referencje" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Referencje">
+  <component name="RunManager" selected="Application.Wprowadzenie">
     <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="forEach.ForEach" />
       <module name="untitled" />
@@ -70,6 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainForTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cwiczeniaReferencje.MainForTests" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cwiczeniaReferencje.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Referencje" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="referencje.Referencje" />
       <module name="untitled" />
@@ -83,8 +101,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Wprowadzenie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamy.Wprowadzenie" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streamy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Wprowadzenie" />
+        <item itemvalue="Application.MainForTests" />
         <item itemvalue="Application.Referencje" />
         <item itemvalue="Application.ForEach" />
         <item itemvalue="Application.MainDlaLambda" />
@@ -156,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660404350568</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="---">
+      <created>1660407695072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660407695072</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
