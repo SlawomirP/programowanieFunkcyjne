@@ -35,9 +35,16 @@ public class Referencje {
         );
 
         //chcemy teraz wyswietlic zawartosc listy, standardowo forEachem
-        for(Animal animal: animals){
-            animal.printName();
-        }
+//        for(Animal animal: animals){
+//            animal.printName();
+//        }
+        // z lambda
+//        animals.forEach(animal -> animal.printName());
+
+        //klasa z ktorej korzystamy w liscie i metoda w niej zawarte
+        animals.forEach(Animal::printName);
+
+
 
     }
 }
