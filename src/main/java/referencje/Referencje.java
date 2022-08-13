@@ -2,6 +2,8 @@ package referencje;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
+import java.util.function.Supplier;
 
 public class Referencje {
     public static void main(String[] args) {
@@ -43,6 +45,16 @@ public class Referencje {
 
         //klasa z ktorej korzystamy w liscie i metoda w niej zawarte
         animals.forEach(Animal::printName);
+
+
+        //REFERENCJA DO KONSTRUKTOROW, potrzebny jest do tego obiekt i
+        // interfejs supplier
+//        Supplier<Animal> animalFactory = () -> new Animal();
+        Supplier<Animal> animalFactory = Animal::new;
+
+        //animal juz z iminiem
+//        Function<String, Animal> animalFactory2 = (name) -> new Animal(name);
+        Function<String, Animal> animalFactory2 = Animal::new;
 
 
 
