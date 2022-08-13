@@ -1,5 +1,8 @@
 package referencje;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Referencje {
     public static void main(String[] args) {
         //REFERENCJA DO METODY STATYCZNEJ
@@ -23,7 +26,18 @@ public class Referencje {
         StringToIntFunction stringToIntFunction = String::length;
         System.out.println(stringToIntFunction.strToInt("ala ma kota i dwa psy"));
 
+        //REFERENCJA DO INSTANCJI DOWOLNEGO OBIEKTU OKREŚLONEGO TYPU
+        //tworzymy zmienna finalna
+        final List<Animal> animals =Arrays.asList(
+                new Animal("Mruczek"),
+                new Animal("Burek"),
+                new Animal("Puszek")
+        );
 
+        //chcemy teraz wyswietlic zawartosc listy, standardowo forEachem
+        for(Animal animal: animals){
+            animal.printName();
+        }
 
     }
 }
